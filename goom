@@ -28,7 +28,7 @@ if games[game.CreatorId] then
 			loadstring(game:HttpGet(games[game.CreatorId]))()
 			wait(10)
 		until getgenv().GoombaHub ~= nil;
-	else if game.CreatorID == 12229756 then
+	elseif game.CreatorID == 12229756 then
 		print("hello")
 	else
 		loadstring(game:HttpGet(games[game.CreatorId]))()
