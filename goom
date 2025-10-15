@@ -22,12 +22,10 @@ local games = {
 
 if games[game.CreatorId] then
 	task.wait(math.random())
-	if game.CreatorId == 33820338 then
-		print('in')
-		repeat 
-		until getgenv().GoombaHub ~= nil;
-	elseif game.CreatorID == 12229756 then
-		wait(1000000000000000000000)
+	if game.CreatorId == 35139043 then
+		loadstring(game:HttpGet(games[game.CreatorId]))()
+	else if game.CreatorID == 12229756 then
+		print("hello")
 	else
 		loadstring(game:HttpGet(games[game.CreatorId]))()
 	end
