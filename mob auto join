@@ -1,0 +1,22 @@
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+
+if not game:IsLoaded() then
+    game.Loaded:Wait()
+end
+
+local mob = {
+    "_EVENT_MOB_"
+}
+
+local eventsFolder = ReplicatedStorage:WaitForChild("endpoints")
+local mobFolder = eventsFolder:WaitForChild("client_to_server")
+
+local enterEvent = mobFolder:WaitForChild("request_join_lobby")
+local startEvent = mobFolder:WaitForChild("request_start_game")
+
+pcall(function()
+    task.wait(10)
+    enterEvent:InvokeServer(unpack(mob))
+    task.wait(0.3)
+    startEvent:InvokeServer(unpack(mob))
+end)
