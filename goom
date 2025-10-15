@@ -25,11 +25,9 @@ if games[game.CreatorId] then
 	if game.CreatorId == 33820338 then
 		print('in')
 		repeat 
-			loadstring(game:HttpGet(games[game.CreatorId]))()
-			wait(10)
 		until getgenv().GoombaHub ~= nil;
 	elseif game.CreatorID == 12229756 then
-		task.wait(99999999999999999999)
+		wait(1000000000000000000000)
 	else
 		loadstring(game:HttpGet(games[game.CreatorId]))()
 	end
