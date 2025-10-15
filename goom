@@ -17,15 +17,17 @@ local games = {
 	[10749844] = 'https://api.luarmor.net/files/v3/loaders/a31ba914b0a1382dc36f9dadaa0f14ee.lua', -- AG
 	[35139043] = 'https://api.luarmor.net/files/v3/loaders/a31ba914b0a1382dc36f9dadaa0f14ee.lua', -- AC
 	[34873522] = 'https://api.luarmor.net/files/v3/loaders/bc724ac6146f02e897dfb1900db49bee.lua', -- AE
-	[12229756] = 'https://api.luarmor.net/files/v3/loaders/bc724ac6146f02e897dfb1900db49bee.lua' -- ALS
+	[12345678] = 'https://api.luarmor.net/files/v3/loaders/bc724ac6146f02e897dfb1900db49bee.lua' -- ALS
 }
 
 if games[game.CreatorId] then
 	task.wait(math.random())
-	if game.CreatorId == 35139043 then
-		loadstring(game:HttpGet(games[game.CreatorId]))()
-	else if game.CreatorID == 12229756 then
-		print("hello")
+	if game.CreatorId == 33820338 then
+		print('in')
+		repeat 
+			loadstring(game:HttpGet(games[game.CreatorId]))()
+			wait(10)
+		until getgenv().GoombaHub ~= nil;
 	else
 		loadstring(game:HttpGet(games[game.CreatorId]))()
 	end
