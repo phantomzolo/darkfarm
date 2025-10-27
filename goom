@@ -4,10 +4,10 @@ end
 
 if game.CreatorId == 12229756 then
 	getgenv().script_key = "LxXLuXwLClIlTQoZhLDZWFpfIMGoEKlb";	
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/JustLevel/goombahub/main/goombahub.lua"))()
+	loadstring(game:HttpGet("https://gitea.com/JustLevel/goombahub/raw/branch/main/goombahub.lua"))()
 elseif game.CreatorId == 35139043 then
 	getgenv().script_key = "CaUdSyQhpgLXmekOgIPHHhSMLrwiHuVz";	
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/JustLevel/goombahub/main/goombahub.lua"))()
+	loadstring(game:HttpGet("https://gitea.com/JustLevel/goombahub/raw/branch/main/goombahub.lua"))()
 else
 	return
 end
