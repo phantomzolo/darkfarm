@@ -1,7 +1,7 @@
 if not game:IsLoaded() then
     game.Loaded:Wait()
 end
-
+wait(5)
 if game.CreatorId == 12229756 then
 	getgenv().script_key = "yaTGWnJnoagwenKONatBiRhHIqKaPLBZ";	
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/JustLevel/goombahub/main/goombahub.lua"))()
