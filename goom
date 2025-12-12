@@ -11,6 +11,9 @@ elseif game.CreatorId == 35139043 then
 elseif game.CreatorId == 17219742 then
 	getgenv().script_key = "pyaVrosQVGJOuujpucMePEwcBDcupIbU";	
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/JustLevel/goombahub/main/goombahub.lua"))()
+elseif game.CreatorId == 15003310 then
+	getgenv().script_key = "oltYTcOWQsNNYnxREQGLJEPdbQbSfYED";	
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/JustLevel/goombahub/main/goombahub.lua"))()
 else
 	return
 end
