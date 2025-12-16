@@ -3,7 +3,7 @@ if not game:IsLoaded() then
 end
 wait(5)
 if game.CreatorId == 12229756 then --als
-	getgenv().script_key = "yaTGWnJnoagwenKONatBiRhHIqKaPLBZ";	
+	getgenv().script_key = "xPkmHmSjiHyrEbihvPriuPRakjaAkOQO";	
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/JustLevel/goombahub/main/goombahub.lua"))()
 elseif game.CreatorId == 35139043 then
 	getgenv().script_key = "CaUdSyQhpgLXmekOgIPHHhSMLrwiHuVz";	--AC
