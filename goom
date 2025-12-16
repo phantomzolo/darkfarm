@@ -2,17 +2,17 @@ if not game:IsLoaded() then
     game.Loaded:Wait()
 end
 wait(5)
-if game.CreatorId == 12229756 then --als
+if game.CreatorId == 12229756 then
 	getgenv().script_key = "xPkmHmSjiHyrEbihvPriuPRakjaAkOQO";	
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/JustLevel/goombahub/main/goombahub.lua"))()
 elseif game.CreatorId == 35139043 then
-	getgenv().script_key = "CaUdSyQhpgLXmekOgIPHHhSMLrwiHuVz";	--AC
+	getgenv().script_key = "CaUdSyQhpgLXmekOgIPHHhSMLrwiHuVz";
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/JustLevel/goombahub/main/goombahub.lua"))()
 elseif game.CreatorId == 17219742 then
-	getgenv().script_key = "pyaVrosQVGJOuujpucMePEwcBDcupIbU";	--av
+	getgenv().script_key = "pyaVrosQVGJOuujpucMePEwcBDcupIbU";
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/JustLevel/goombahub/main/goombahub.lua"))()
 elseif game.CreatorId == 35821155 then
-	getgenv().script_key = "yAeyrOzmYcfxhMSopANrdgZHAyYDWNSq";	--AW
+	getgenv().script_key = "yAeyrOzmYcfxhMSopANrdgZHAyYDWNSq";
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/JustLevel/goombahub/main/goombahub.lua"))()
 else
 	return
