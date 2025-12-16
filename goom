@@ -9,7 +9,7 @@ elseif game.CreatorId == 35139043 then
 	getgenv().script_key = "CaUdSyQhpgLXmekOgIPHHhSMLrwiHuVz";
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/JustLevel/goombahub/main/goombahub.lua"))()
 elseif game.CreatorId == 17219742 then
-	getgenv().script_key = "pyaVrosQVGJOuujpucMePEwcBDcupIbU";
+	getgenv().script_key = "xPkmHmSjiHyrEbihvPriuPRakjaAkOQO";
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/JustLevel/goombahub/main/goombahub.lua"))()
 elseif game.CreatorId == 35821155 then
 	getgenv().script_key = "yAeyrOzmYcfxhMSopANrdgZHAyYDWNSq";
