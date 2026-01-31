@@ -14,7 +14,7 @@ elseif game.CreatorId == 17219742 then -- AV
 elseif game.CreatorId == 35821155 then -- AW
 	getgenv().script_key = "oltYTcOWQsNNYnxREQGLJEPdbQbSfYED";
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/JustLevel/goombahub/main/goombahub.lua"))()
-elseif game.CreatorID == 35958846 then -- AP
+elseif game.PlaceId == 85661754644506 then -- AP
 	getgenv().script_key = "xomDwaOsMQTNaJjeAgdXivgcvyYOYSXc";
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/JustLevel/goombahub/main/goombahub.lua"))()
 else
